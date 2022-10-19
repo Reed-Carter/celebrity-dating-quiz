@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js"></script>
+  <title>Celebrity dating quiz</title>
+</head>
+
+<body>
+  <form>
+    <p id="error-message" class="hidden"> Please enter apppropriate values</p> 
+    <label for="hairColor">Your hair color</label>
+    <input type="text" name="hairColor" id="hairColor">
+    <label for="eyeColor">Your eye color</label>  
+    <input type="text" name="eyeColor" id="eyeColor">
+    <label for="age">Your age</label>
+    <input type="number" name="age" id="age">
+    <button type="submit" id="match">Show me my match!</button>
+  </form>
+
+  <div id="match1" class="hidden">
+    <p>You got Fred</p>
+  </div>
+
+  <div id="match2" class="hidden">
+    <p>You got Julia</p>
+  </div>
+
+  <div id="match3" class="hidden">
+    <p>You got Steven</p>
+  </div>
+
+</body>
+</html>
